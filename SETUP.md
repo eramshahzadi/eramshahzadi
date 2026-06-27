@@ -1,41 +1,43 @@
-# Iram Shahzadi Portfolio — Setup Guide
+# Iram Shahzadi Portfolio Setup
 
-This folder contains two things:
+## 1. GitHub Profile README
 
-1. **GitHub Pages Portfolio Website** — `index.html`, `style.css`, `script.js`, and `assets/`
-2. **GitHub Profile README** — `PROFILE_README.md`
+For the profile page, create a GitHub repository with the exact same name as the username:
 
----
+```text
+eramshahzadi
+```
 
-## Option A: Use as GitHub Pages Website
+Upload these items into that repository:
 
-1. Create a new GitHub repository, for example:
-   `iram-shahzadi-portfolio`
-2. Upload all files from this folder.
-3. Go to **Repository Settings → Pages**.
-4. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save it.
-6. Your portfolio website will be live in a few minutes.
+```text
+README.md
+assets/profile.jpg
+assets/github-profile-neon.svg
+```
 
----
+After upload, the GitHub profile page will show the neon animated README design.
 
-## Option B: Use as GitHub Profile README
+Important: GitHub README does not run normal website CSS/JavaScript like `index.html`, so the profile README uses a GitHub-compatible animated SVG preview. This is the closest working way to show the same neon portfolio style inside README.
 
-1. Create a repository with the same name as the GitHub username:
-   `eramshahzadi`
-2. Rename `PROFILE_README.md` to `README.md`.
-3. Upload the `assets/profile.jpg` image too.
-4. Commit the changes.
-5. The profile README will show on the GitHub profile page.
+## 2. Portfolio Website
 
----
+For the full animated website, upload all files and enable GitHub Pages:
 
-## Important Edits
+```text
+index.html
+style.css
+script.js
+assets/profile.jpg
+assets/profile-full.jpg
+```
 
-- Replace the CV button link in `index.html` when a real CV is available.
-- Update project names when new projects are completed.
-- Update GitHub stats if the username changes from `eramshahzadi`.
-- Keep the design beginner-friendly. Do not add fake advanced skills.
+Then enable GitHub Pages from repository settings.
+
+## 3. Local Preview
+
+Open this file in browser:
+
+```text
+animated-preview.html
+```
